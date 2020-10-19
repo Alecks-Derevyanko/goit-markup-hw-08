@@ -65,6 +65,7 @@ body {
 }
 .our-but:hover,
 .our-but:focus {
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 .modal-btn {
