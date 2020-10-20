@@ -84,7 +84,9 @@ img {
 .header .container {
   display: flex;
 }
-
+.navigation {
+  display: flex;
+}
 .our-but:hover,
 .our-but:focus {
   color: #ffffff;
