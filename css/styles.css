@@ -87,6 +87,11 @@ img {
 .navigation {
   display: flex;
 }
+
+.navigation-list {
+  display: flex;
+}
+
 .our-but:hover,
 .our-but:focus {
   color: #ffffff;
