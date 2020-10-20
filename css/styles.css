@@ -58,7 +58,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-color: yellow;
-  outline: 2px; solide tomato;
 }
 
 .navigation-list-link {
@@ -262,10 +261,10 @@ img {
 .portfolio-list-but:not(:last-child) {
   margin-right: 8px;
 }
-.prof-conttainer{
+.prof-conttainer {
   display: flex;
   align-items: center;
-background-color: violet;
+  background-color: violet;
 }
 .prof-conttainer-list {
   width: 270px;
@@ -275,10 +274,10 @@ background-color: violet;
 .prof-conttainer-list:not(:last-child) {
   margin-right: 30px;
 }
-.work{
+.work {
   display: flex;
   align-items: center;
-background-color: violet;
+  background-color: violet;
 }
 .work-list {
   width: 370px;
@@ -288,10 +287,10 @@ background-color: violet;
 .work-list:not(:last-child) {
   margin-right: 30px;
 }
-.comand{
+.comand {
   display: flex;
   align-items: center;
-background-color: violet;
+  background-color: violet;
 }
 .comand-worker {
   width: 270px;
