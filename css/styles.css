@@ -37,6 +37,11 @@ body {
 .address {
   font-style: normal;
 }
+.container {
+  width: 1600;
+  height: 80;
+}
+
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
