@@ -80,6 +80,11 @@ img {
 .header-tel-link:focus {
   color: var(--accent-color);
 }
+
+.header .container {
+  display: flex;
+}
+
 .our-but:hover,
 .our-but:focus {
   color: #ffffff;
