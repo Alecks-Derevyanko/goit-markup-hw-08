@@ -5,10 +5,30 @@
   --second-color: #757575;
   --accent-color: #2196f3;
 }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: var(--main-font);
   font-style: normal;
 }
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+img {
+  display: block;
+}
+
 .logo,
 .logo-white {
   font-family: var(--secondary-font);
@@ -26,20 +46,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
-.address {
-  font-style: normal;
-}
+
 .container {
-  width: 1600;
-  height: 80;
+  width: 1600px;
+  height: 80px;
 }
 
 .navigation-list-link {
