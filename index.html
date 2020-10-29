@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -74,9 +74,10 @@
           </button>
         </div>
       </section>
-      <section class="about-us">
-        <!--ABOUT US-->
 
+      <!--ABOUT US-->
+
+      <section class="about-us">
         <div class="conteiner">
           <ul class="about-list list">
             <li class="about-item">
@@ -130,9 +131,10 @@
           </ul>
         </div>
       </section>
-      <section class="work">
-        <!-- What are we doing -->
 
+      <!-- What are we doing -->
+
+      <section class="work">
         <div class="conteiner">
           <h2 class="subtitle title">Чем мы занимаемся</h2>
           <div>
@@ -179,7 +181,7 @@
 
       <section class="team">
         <div class="conteiner">
-          <h2 class="team-subtitle subtitle title">Наша команда</h2>
+          <h2 class="subtitle title">Наша команда</h2>
           <ul class="team-list list">
             <li class="about-list-item">
               <img
@@ -358,8 +360,9 @@
       </section>
       <section class="client">
         <!-- client -->
+
         <div class="conteiner">
-          <h2 class="team-subtitle subtitle title">Постоянные клиенты</h2>
+          <h2 class="subtitle title">Постоянные клиенты</h2>
           <ul class="client-list list">
             <a class="client-link" href="">
               <li class="client-item">
@@ -397,7 +400,7 @@
               </li>
             </a>
             <a class="client-link" href="">
-              <li class="client-link" class="client-item">
+              <li class="client-item">
                 <svg class="icon-client" width="89" height="45">
                   <use href="./images/sprite.svg#icon-logo-6"></use>
                 </svg>
@@ -407,6 +410,7 @@
         </div>
       </section>
     </main>
+    <!-- =========== FOOTER ============ -->
     <footer class="footer">
       <div class="conteiner">
         <div class="footer-left">
@@ -476,26 +480,21 @@
         </div>
         <div class="subscription-conteiner">
           <h3 class="footer-title title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
-          <div class="form-conteiner">
-            <form class="form" action="">
-              <div class="footer-form-field">
-                <label for="name"></label>
-                <input
-                  class="input"
-                  type="email"
-                  name="name"
-                  id="name"
-                  placeholder="E-mail"
-                />
-                <button class="form-button" type="submit">
-                  Подписаться
-                  <svg class="form-svg" width="24" height="24">
-                    <use href="./images/sprite.svg#icon-icon-send-1"></use>
-                  </svg>
-                </button>
-              </div>
-            </form>
-          </div>
+          <form action="" class="form">
+            <input
+              class="input"
+              type="email"
+              name="name"
+              id="name"
+              placeholder="E-mail"
+            />
+            <button class="form-button" type="submit">
+              Подписаться
+              <svg class="form-svg" width="24" height="24">
+                <use href="./images/sprite.svg#icon-icon-send-1"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -509,7 +508,6 @@
 
         <form class="modal-form" action="">
           <div class="form-conteiner">
-            <div role="group" class="form-conteiner"></div>
             <h3 class="modal-title title">
               Оставьте свои данные, мы вам перезвоним
             </h3>
@@ -536,14 +534,17 @@
               </svg>
               <input type="email" name="email" id="email" />
             </div>
-            <div class="form-field form-field-comment">
+            <div class="form-field">
               <label for="text">Комментарий</label>
-              <input
-                type="comment"
-                name="text"
+              <textarea
+                class="comment"
+                name="comment"
                 id="text"
+                cols="30"
+                rows="10"
                 placeholder="Введите текст"
-              />
+              ></textarea>
+              <!-- <input type="comment" name="text" id="text" placeholder="Введите текст"/> -->
             </div>
 
             <div class="agreement" role="group">
@@ -558,10 +559,10 @@
                 <a class="link-modal" href="">Условия договора</a>
               </label>
             </div>
-
-            <div class="button-conteiner">
-              <button class="modal-button" type="submit">Отправить</button>
-            </div>
+            <button class="modal-button" type="submit">Отправить</button>
+            <!-- <div class="button-conteiner">
+                        <button class="modal-button" type="submit">Отправить</button>
+                    </div> -->
           </div>
         </form>
       </div>
