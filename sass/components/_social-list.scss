@@ -26,4 +26,10 @@
   &__link:hover &__svg {
     fill: $white-color;
   }
+  &__link:focus {
+    background-color: $accent-color;
+  }
+  &__link:focus &__svg {
+    fill: $white-color;
+  }
 }
